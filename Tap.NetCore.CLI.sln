@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tap.NetCore.CLI", "src\Tap.NetCore.CLI.csproj", "{193F574C-CCC1-4DBD-8D4A-4D72FCF982F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tap.NetCore.CLI.Tests", "tests\Tap.NetCore.CLI.Tests.csproj", "{0EE5554C-942A-45EE-AF90-9F1927AEF83D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{193F574C-CCC1-4DBD-8D4A-4D72FCF982F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{193F574C-CCC1-4DBD-8D4A-4D72FCF982F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{193F574C-CCC1-4DBD-8D4A-4D72FCF982F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE5554C-942A-45EE-AF90-9F1927AEF83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE5554C-942A-45EE-AF90-9F1927AEF83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE5554C-942A-45EE-AF90-9F1927AEF83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE5554C-942A-45EE-AF90-9F1927AEF83D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
